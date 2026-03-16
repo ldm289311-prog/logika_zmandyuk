@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>Aroma cofee</div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="menu.html">Меню</a>
+        </nav>
+    </header>
+    <main>
+        <section class="foto">
+
+        </section>
+
+        <section class="about">
+            <h2>Про нас</h2>
+            <p>Наша кава чудова!</p>
+            <p> Прекрасне місце, дуже приємний персонал, обслуговування на висоті. </p>
+            <p>Дуже смачно та страви просто неперевершені! </p>
+
+        </section>
+    </main>
+    <footer>
+      <p>&copy;2026 Aroma cofee</p>  
+    </footer>
+</body>
+</html> 
+
+
