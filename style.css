@@ -1,0 +1,112 @@
+:root{
+    --primary-color: #3e2723;
+--accent-color:  #d7ccc8;
+--text-color:#333;
+--bg-color:#fafafa;
+}
+
+*{
+margin:0;
+padding:0;
+
+}
+
+body{
+font-family: 'sans-serif'  ;
+background-color:var(--big-color);
+color:var(--text-color);
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:18px 28px;
+background-color:var(--primary-color);
+color:var(--accent-color);
+}
+nav{
+display: flex;
+ gap:30px;
+}
+nav a{
+color:var(--accent-color);
+text-decoration: none;
+font-weight: bold;
+}
+footer{
+background-color:var(--primary-color);
+color:var(--accent-color);
+}
+
+footer p{
+text-align:center;
+padding:25px 0;
+font-size:18px;
+}
+.foto{
+background-image:url(image/кафе.jpg) ;
+background-size: cover;
+height: 100vh;
+}
+.about{
+text-align:center;
+padding:30px 0;
+font-size: 24px;
+}
+.about h2{
+font-size: 36px;
+padding: 30px;
+color: var(--primary-color);
+}
+
+
+nav a:hover{
+color:rgb(104, 18, 12);
+
+}
+
+
+.menu{
+    margin: 100px 0;
+    background-color: rgb(253, 253, 253);
+}
+
+.menu-img{
+    text-align: center;
+    margin-bottom: 50px;   
+}
+
+.menu-title{
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--primary-color);
+    font-size: 35px;
+}
+
+.menu-item{
+    font-size: 30px;
+    color: var(--text-color);
+
+}
+
+.menu-item_title{
+    margin: 15px;
+    color: var(--primary-color);
+    font-size: 25px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+
+
+
